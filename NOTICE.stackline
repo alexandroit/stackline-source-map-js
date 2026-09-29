@@ -1,0 +1,5 @@
+Independent maintenance fork of source-map-js 1.2.1.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/7rulnik/source-map-js
+Base commit: 428d49f6b1e1614f082b7706fa879a3d9c64f728
+Stackline is not affiliated with or endorsed by upstream maintainers.

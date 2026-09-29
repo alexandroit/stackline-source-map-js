@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-29T00:21:42.767424+00:00",
+  "upstreamRepository": "7rulnik/source-map-js",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 76,
+      "title": "Security Advisory: Event-loop denial of service in SourceNode via unvalidated section offset line",
+      "url": "https://github.com/7rulnik/source-map-js/issues/76"
+    },
+    {
+      "number": 77,
+      "title": "CVE-2026-93749 affects 1.2.1 with no fixed release available",
+      "url": "https://github.com/7rulnik/source-map-js/issues/77"
+    },
+    {
+      "number": 43,
+      "title": "Bug: RawSourceMap.version type should be number, not string",
+      "url": "https://github.com/7rulnik/source-map-js/issues/43"
+    },
+    {
+      "number": 30,
+      "title": "originalPositionFor has incorrect typing",
+      "url": "https://github.com/7rulnik/source-map-js/issues/30"
+    },
+    {
+      "number": 14,
+      "title": "Setup CI and automate release",
+      "url": "https://github.com/7rulnik/source-map-js/issues/14"
+    },
+    {
+      "number": 9,
+      "title": "Add info how to use it via yarn resolutions",
+      "url": "https://github.com/7rulnik/source-map-js/issues/9"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 42,
+      "title": "Please create SECURITY.md",
+      "url": "https://github.com/7rulnik/source-map-js/issues/42"
+    }
+  ],
+  "decision": "Reject invalid indexed-map offsets and mappings outside the generated content before SourceNode line padding (upstream reports 76/77). The regression preserves valid indexed-map text.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}

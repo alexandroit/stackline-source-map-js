@@ -1,0 +1,16 @@
+{
+  "slug": "source-map-js",
+  "upstream": "source-map-js",
+  "upstreamVersion": "1.2.1",
+  "upstreamIntegrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
+  "upstreamCommit": "428d49f6b1e1614f082b7706fa879a3d9c64f728",
+  "sourcePackageDirectory": ".",
+  "overlays": {
+    "lib/source-map-consumer.js": "lib/source-map-consumer.js",
+    "lib/source-node.js": "lib/source-node.js"
+  },
+  "tests": [
+    "npm ci --ignore-scripts",
+    "npm test"
+  ]
+}
