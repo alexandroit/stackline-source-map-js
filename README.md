@@ -1,6 +1,48 @@
-# Source Map JS
+# @stackline/source-map-js
 
-[![NPM](https://nodei.co/npm/source-map-js.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/source-map-js)
+> Generates and consumes source maps.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/source-map-js.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/source-map-js)
+[![license](https://img.shields.io/npm/l/@stackline/source-map-js.svg?style=flat-square)](https://github.com/alexandroit/stackline-source-map-js)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-source-map-js-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-source-map-js)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/source-map-js/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/source-map-js/)** | **[npm](https://www.npmjs.com/package/@stackline/source-map-js)** | **[Issues](https://github.com/alexandroit/stackline-source-map-js/issues)** | **[Repository](https://github.com/alexandroit/stackline-source-map-js)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/source-map-js` is the Stackline-maintained distribution of `source-map-js@1.2.1`. It is an independent continuation of [source-map-js](https://github.com/7rulnik/source-map-js); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/source-map-js@1.0.1` |
+| API target | `source-map-js@1.2.1` |
+| Supported Node.js | `>=0.10.0` |
+| License | `BSD-3-Clause` |
+| Main entry | `./source-map.js` |
+| Types | `source-map.d.ts` |
+| Runtime dependencies | `none` |
+
+## Installation
+
+```bash
+npm install @stackline/source-map-js
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install source-map-js@npm:@stackline/source-map-js
+```
+
+## Usage and API reference
 
 Difference between original [source-map](https://github.com/mozilla/source-map):
 
@@ -10,7 +52,6 @@ This journey starts from [source-map@0.7.0](https://github.com/mozilla/source-ma
 
 It's still a major block for many libraries like PostCSS or Sass for example because they need to migrate the whole API to the async way. This is the reason why 0.6.1 has 2x more downloads than 0.7.3 while it's faster several times.
 
-![Downloads count](media/downloads.png)
 
 More important that WASM version has some optimizations in JS code too. This is why [community asked to create branch for 0.6 version](https://github.com/mozilla/source-map/issues/324) and port these optimizations but, sadly, the answer was «no». A bit later I discovered [the issue](https://github.com/mozilla/source-map/issues/370) created by [Ben Rothman (@benthemonkey)](https://github.com/benthemonkey) with no response at all.
 
@@ -27,18 +68,16 @@ This is a library to generate and consume the source map format
 
 ## Use with Node
 
-    $ npm install source-map-js
+    $ npm install @stackline/source-map-js
 
-<!-- ## Use on the Web
 
-    <script src="https://raw.githubusercontent.com/mozilla/source-map/master/dist/source-map.min.js" defer></script> -->
 
 --------------------------------------------------------------------------------
 
-<!-- `npm run toc` to regenerate the Table of Contents -->
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+
 ## Table of Contents
 
 - [Examples](#examples)
@@ -76,7 +115,7 @@ This is a library to generate and consume the source map format
     - [SourceNode.prototype.toString()](#sourcenodeprototypetostring)
     - [SourceNode.prototype.toStringWithSourceMap([startOfSourceMap])](#sourcenodeprototypetostringwithsourcemapstartofsourcemap)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## Examples
 
@@ -763,3 +802,62 @@ node.toStringWithSourceMap({ file: "my-output-file.js" })
 // { code: 'unodostresquatro',
 //   map: [object SourceMapGenerator] }
 ```
+
+## Credits and original authors
+
+- Original project: [source-map-js](https://github.com/7rulnik/source-map-js).
+- Valentin 7rulnik Semirulnik.
+- Nick Fitzgerald.
+- Tobias Koppers.
+- Duncan Beevers.
+- Stephen Crane.
+- Ryan Seddon.
+- Miles Elam.
+- Mihai Bazon.
+- Michael Ficarra.
+- Todd Wolfson.
+- Alexander Solovyov.
+- Felix Gnass.
+- Conrad Irwin.
+- usrbincc.
+- David Glasser.
+- Chase Douglas.
+- Evan Wallace.
+- Heather Arthur.
+- Hugh Kennedy.
+- Simon Lydell.
+- Jmeas Smith.
+- Michael Z Goddard.
+- azu.
+- John Gozde.
+- Adam Kirkton.
+- Chris Montgomery.
+- J. Ryan Stinnett.
+- Jack Herrington.
+- Chris Truter.
+- Daniel Espeset.
+- Jamie Wong.
+- Eddy Bruël.
+- Hawken Rives.
+- Gilad Peleg.
+- djchie.
+- Gary Ye.
+- Nicolas Lalevée.
+- Copyright (c) 2009-2011, Mozilla Foundation and contributors.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## License
+
+`BSD-3-Clause`. See the license and notice files in the [repository](https://github.com/alexandroit/stackline-source-map-js).
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
