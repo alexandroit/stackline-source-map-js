@@ -4,7 +4,7 @@
     {
       "name": "@stackline/source-map-js",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -17,8 +17,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/source-map-js/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/source-map-js/-/source-map-js-1.0.0.tgz",
       "baselineIntegrity": "sha512-o2Kj7Zg3PusQkF7IZPVFbDAi4vikn73OpzB07SpTyE3/TeHYlTexIlFEa6+2f9WpOL6wb+2bCBD4vlRlVfnKRg==",
-      "expectedSha512": "6375db59304627d06637897faece148c5880fed0d2506f759bb57e131e3e47c6a1d9b1db2bfde8202a770fff9ac0f601a0fd1d6cdd1ebf48119db36a07c591f2",
-      "tag": "docs-stackline-source-map-js-v1.0.1"
+      "expectedSha512": "36a90a18c9f1c14584049c5a67b7e3ed5d8243d1d99be5176f5b6cf6a8cb3675e02636526d3abb1872e3ca1534b2ffdc073d7098aee796481c9c32f0cd94543b",
+      "tag": "docs-stackline-source-map-js-v1.0.2"
     }
   ]
 }
