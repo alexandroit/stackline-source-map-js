@@ -1,0 +1,24 @@
+{
+  "repository": "alexandroit/stackline-source-map-js",
+  "packages": [
+    {
+      "name": "@stackline/source-map-js",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "source-map-js",
+        "source-map",
+        "typescript",
+        "nodejs"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/source-map-js/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/source-map-js/-/source-map-js-1.0.0.tgz",
+      "baselineIntegrity": "sha512-o2Kj7Zg3PusQkF7IZPVFbDAi4vikn73OpzB07SpTyE3/TeHYlTexIlFEa6+2f9WpOL6wb+2bCBD4vlRlVfnKRg==",
+      "expectedSha512": "6375db59304627d06637897faece148c5880fed0d2506f759bb57e131e3e47c6a1d9b1db2bfde8202a770fff9ac0f601a0fd1d6cdd1ebf48119db36a07c591f2",
+      "tag": "docs-stackline-source-map-js-v1.0.1"
+    }
+  ]
+}
