@@ -7,7 +7,8 @@
   "sourcePackageDirectory": ".",
   "overlays": {
     "lib/source-map-consumer.js": "lib/source-map-consumer.js",
-    "lib/source-node.js": "lib/source-node.js"
+    "lib/source-node.js": "lib/source-node.js",
+    "lib/util.js": "lib/util.js"
   },
   "tests": [
     "npm ci --ignore-scripts",

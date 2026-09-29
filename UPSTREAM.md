@@ -22,3 +22,5 @@ Reject invalid indexed-map offsets and mappings outside the generated content be
 - [9: Add info how to use it via yarn resolutions](https://github.com/7rulnik/source-map-js/issues/9)
 
 The structured snapshot in `.stackline/issue-triage.json` also records recently closed reports. Issues for unrelated packages in shared monorepositories were qualified as outside this fork’s runtime scope. No maintainer was contacted.
+
+URL parsing, data URL detection, and trailing-slash handling now avoid overlapping regex backtracking, with differential URL fixtures and large-input regressions.

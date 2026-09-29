@@ -1,0 +1,3 @@
+name: Runtime and active tests, build, CI, release tools
+paths-ignore:
+  - bench-js/bench-dom-bindings.js

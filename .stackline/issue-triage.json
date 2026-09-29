@@ -42,5 +42,6 @@
     }
   ],
   "decision": "Reject invalid indexed-map offsets and mappings outside the generated content before SourceNode line padding (upstream reports 76/77). The regression preserves valid indexed-map text.",
-  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+  "limits": "Issue titles and selected relevant bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence.",
+  "codeqlReview": "URL parsing, data URL detection, and trailing-slash handling now avoid overlapping regex backtracking, with differential URL fixtures and large-input regressions."
 }
